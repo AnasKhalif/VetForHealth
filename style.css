@@ -6,7 +6,7 @@
     color: #de812a;
 }
 
-.lead {
+.leads {
     color: #1085e6;
 }
 
@@ -51,4 +51,30 @@
       justify-content: center;
     }
   }
+
+  .about-section {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+  }
+  
+  .about-section img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .about-section ul {
+    padding-left: 0;
+    list-style: none;
+    font-size: 1.1rem;
+    color: #6c757d;
+  }
+  
+  .about-section ul li {
+    margin-bottom: 7px;
+  }
+  
+  .about-section a.btn {
+    margin-top: 12px;
+  }
+  
   
