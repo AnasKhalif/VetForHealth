@@ -22,13 +22,26 @@
     height: 120px;
     object-fit: cover;
     position: absolute; /* or relative depending on your layout needs */
-    top: 100px; /* adjust as needed */
+    top: 200px; /* adjust as needed */
     right: 100px; /* adjust as needed */
+    transform: translate(-50%, -50%);
+        animation: spin 10s linear infinite;
 }  
+
+@keyframes spin {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }
 
 .circle-content {
     width: 170px;
     height: 130px;
+    transform: translate(-50%, -50%);
+        animation: spin 10s linear infinite;
 }
 
 /* Untuk ukuran layar medium dan lebih besar (≥ 768px) */
@@ -87,4 +100,6 @@
   .contact-section {
     background-color: #f8f9fa;
   }
+
+  
   
