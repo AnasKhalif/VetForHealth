@@ -74,7 +74,13 @@
   }
   
   .about-section a.btn {
-    margin-top: 12px;
+    margin-top: 15px;
   }
   
+  .custom-card-img {
+    max-width: 700px; /* Ubah sesuai dengan ukuran yang Anda inginkan */
+    max-height: 350px; /* Ubah sesuai dengan ukuran yang Anda inginkan */
+    object-fit: cover; /* Biarkan gambar terisi penuh dalam ukuran yang ditetapkan */
+    border-radius: 8px; /* Tambahkan border-radius untuk sudut membulat */
+  }
   
