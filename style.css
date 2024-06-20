@@ -1,3 +1,54 @@
 .navbar-nav .nav-link:hover {
     color: black;
 }
+
+.text-orange {
+    color: #de812a;
+}
+
+.lead {
+    color: #1085e6;
+}
+
+.description-box {
+    border: 2px solid #ddd; /* Adjust the border color and width as needed */
+    padding: 20px; /* Adjust the padding as needed */
+    border-radius: 50px; /* Optional: Add rounded corners */
+    background-color: #f5efeb; /* Optional: Add a background color */
+}
+
+.circle-image {
+    width: 150px;
+    height: 120px;
+    object-fit: cover;
+    position: absolute; /* or relative depending on your layout needs */
+    top: 100px; /* adjust as needed */
+    right: 100px; /* adjust as needed */
+}  
+
+.circle-content {
+    width: 170px;
+    height: 130px;
+}
+
+/* Untuk ukuran layar medium dan lebih besar (≥ 768px) */
+@media (max-width: 580px) {
+    .circle-image {
+      display: none; /* Sembunyikan gambar lingkaran di layar medium dan lebih besar */
+    }
+
+    .circle-content {
+        display: none; /* Sembunyikan gambar lingkaran di layar medium dan lebih besar */
+      }
+    
+    .hero-section .row {
+      text-align: center; /* Tengahkan teks pada layar medium dan lebih besar */
+    }
+    
+    .hero-section .col-md-6 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+  
