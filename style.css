@@ -83,4 +83,8 @@
     object-fit: cover; /* Biarkan gambar terisi penuh dalam ukuran yang ditetapkan */
     border-radius: 8px; /* Tambahkan border-radius untuk sudut membulat */
   }
+
+  .contact-section {
+    background-color: #f8f9fa;
+  }
   
